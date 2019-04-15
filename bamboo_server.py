@@ -7,18 +7,18 @@ import tensorflow as tf
 
 from logger import logger
 from protos import tea_weeds_pb2_grpc, tea_weeds_pb2
-from src import mod
+from src import bamboo
 import numpy as np
 
-_GRPC_SERVER_ADDRESS = os.getenv("GRPC_SERVER_ADDRESS", '192.168.16.18:6008')
+_GRPC_SERVER_ADDRESS = os.getenv("GRPC_SERVER_ADDRESS", '192.168.16.18:6006')
 _HOST = _GRPC_SERVER_ADDRESS.split(":")[0]
 _PORT = int(_GRPC_SERVER_ADDRESS.split(":")[1])
-_SERVER_NAME = "tea_weed_detect"
+_SERVER_NAME = "bamboo_detect"
 
 
 class TeaWeedDetectService(object):
     def __init__(self):
-        self.model = mod.Tea()
+        self.model = bamboo.Tea()
         self.graph = tf.get_default_graph()
 
     def classifier(self, request, context):

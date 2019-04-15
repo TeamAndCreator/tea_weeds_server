@@ -1,3 +1,4 @@
+#-*-coding:utf-8 -*-
 import os
 
 import cv2
@@ -16,8 +17,8 @@ class Tea(object):
         config = tf.ConfigProto()
         config.gpu_options.allow_growth = True
         tf.Session(config=config)
-        self.model = load_model("model/mod.h5")
-        self.label = pd.read_csv("data/tea_weed_name.csv", header=None)
+        self.model = load_model("model/bamboo.h5")
+        self.label = pd.read_csv("data/bamboo_name.csv", header=None)
 
     def preprocess_img(self, image):
         train_data = []  # 数据转码
@@ -41,5 +42,5 @@ class Tea(object):
 if __name__ == '__main__':
     model = Tea()
     data = cv2.imread('../data/image.JPG')  # 读取一张图片
-    print(f"{data.shape}")
+    # print(f"{data.shape}")
     model.predict(data)
