@@ -1,7 +1,0 @@
-2019-04-08,20:57:45: W E:\WorkSpace\tea_weeds_server\venv\lib\site-packages\tensorflow\python\util\deprecation.py:323] From E:\WorkSpace\tea_weeds_server\venv\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
-Instructions for updating:
-Colocations handled automatically by placer.
-2019-04-08,20:57:58: W E:\WorkSpace\tea_weeds_server\venv\lib\site-packages\tensorflow\python\util\deprecation.py:323] From E:\WorkSpace\tea_weeds_server\venv\lib\site-packages\tensorflow\python\ops\math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
-Instructions for updating:
-Use tf.cast instead.
-2019-04-08,20:58:09: I E:/WorkSpace/tea_weeds_server/tea_weeds_server.py:39] tea_weeds_server start success...

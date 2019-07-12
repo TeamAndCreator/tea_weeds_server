@@ -1,0 +1,14 @@
+2019-04-16,16:51:06: W E:\WorkSpace\tea_weeds_server\venv\lib\site-packages\tensorflow\python\util\deprecation.py:323] From E:\WorkSpace\tea_weeds_server\venv\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-04-16,16:51:11: W E:\WorkSpace\tea_weeds_server\venv\lib\site-packages\tensorflow\python\util\deprecation.py:323] From E:\WorkSpace\tea_weeds_server\venv\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-04-16,16:51:30: W E:\WorkSpace\tea_weeds_server\venv\lib\site-packages\tensorflow\python\util\deprecation.py:323] From E:\WorkSpace\tea_weeds_server\venv\lib\site-packages\tensorflow\python\ops\math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-04-16,16:51:38: I E:/WorkSpace/tea_weeds_server/bamboo_server.py:39] tea_weeds_server start success...
+2019-04-16,16:52:04: W E:\WorkSpace\tea_weeds_server\venv\lib\site-packages\tensorflow\python\util\deprecation.py:323] From E:\WorkSpace\tea_weeds_server\venv\lib\site-packages\tensorflow\python\ops\math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-04-16,16:52:30: I E:/WorkSpace/tea_weeds_server/tea_weed_server.py:39] tea_weeds_server start success...
